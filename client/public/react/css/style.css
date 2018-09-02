@@ -1,0 +1,20 @@
+.ui.sortable.table .not-sortable {
+  cursor: default;
+}
+
+.ui.sortable.table .not-sortable:hover {
+  background: rgb(249, 250, 251);
+}
+
+.ui.sortable.table thead th.sorted:after {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.th-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
